@@ -7,42 +7,43 @@ function Navbar() {
   
   return (
     <>
-    <div class="container">
-  <div class="row">
-    <div class="col-md-6 text-center">
-      <img src="https://example.com/logo.png" alt="Logo" class="img-fluid"/>
-      
-    </div>
-    <h2 class="mt-3 text-right">Subscribe to our Newsletter</h2>
-    <div class="col-lg-6 text-left">
-      <p>For enquiries call <br/> (234) 809 8888 633</p>
-    </div>
+    <div class="d-flex justify-content-between ">
+  <div>
+    <h5 class=' p-3'>Subscribe to our Newsletter</h5>
+  </div>
+  <div class="">
+    <img src="https://example.com/logo.png" alt="Logo" class="img-fluid"/>
+  </div>
+  <div class="col-6 text-right">
+    <p>For inquiries call <br/> (234) 809 8888 633</p>
   </div>
 </div>
+
+
 
 
 
 <div id="menu-container">
   <ul class="nav justify-content-center">
     <li class="nav-item">
-      <Link class="nav-link text-dark" href="#">HOME</Link>
+      <Link class="nav-link text-dark" to="/" href="#">HOME</Link>
     </li>
     <li class="nav-item">
-      <a class="nav-link text-dark" href="#">ABOUT US</a>
+      <Link class="nav-link text-dark" to="/about" href="#">ABOUT US</Link>
     </li>
     <li class="nav-item">
-      <a class="nav-link text-dark" href="#">GALLERY</a>
+      <Link class="nav-link text-dark" to="/gallery" href="#">GALLERY</Link>
     </li>
     <li class="nav-item">
-      <a class="nav-link text-dark" href="#">SHOP</a>
+      <Link class="nav-link text-dark" to="/shop" href="#">SHOP</Link>
     </li>
     <li class="nav-item">
-      <a class="nav-link text-dark" href="#">CONTACT US</a>
+      <Link class="nav-link text-dark" to="/contact" href="#">CONTACT US</Link>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">
+      <Link class="nav-link" href="#">
         <img src={cart} alt="Cart" class="cart-icon" />
-      </a>
+      </Link>
     </li>
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle text-dark" href="#" id="currencyDropdown" data-bs-toggle="dropdown" aria-expanded="false">

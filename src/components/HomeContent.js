@@ -1,18 +1,22 @@
 import React from 'react'
 import { Carousel } from "react-bootstrap";
 import '../App.css'
-import one from '../images/1.jpeg';
-import two from '../images/2.jpeg';
-import three from '../images/3.jpeg';
+import { Link } from "react-router-dom";
+// import one from '../images/1.jpeg';
+// import two from '../images/2.jpeg';
+// import three from '../images/3.jpeg';
 
 
 function HomeContent() {
   return (
     <>
     <div class='col-12 text-center'>
-        <h1 id='text1' class='fs-1'>WELCOME <br /> TO <br /> GLAMOURGROVE</h1>
-        <p>We take your ideas and make them reality</p>
-        <div><span>READ THE</span> <br /> GLAMOURGROVE STORY</div>
+        <h1 id='text1' class='fs-1 fw-bolder'>WELCOME <br /> TO <br /> GLAMOURGROVE</h1>
+        <p id='text1'>We take your ideas and make them reality</p>
+        <Link class="nav-link text-dark" to="/about" href="#" >
+          <span>READ THE</span> <br /> GLAMOURGROVE STORY
+        </Link>
+
     </div>
     {/* <Carousel className="custom-carousel w-50 " >
         <Carousel.Item>
