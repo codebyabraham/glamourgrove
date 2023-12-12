@@ -22,3 +22,10 @@
     font-family: 'Work Sans', sans-serif;
     color: rgb(19, 42, 69);
   }
+  .no-underline {
+    text-decoration: none;
+  }
+  #text2{
+    font-family: 'Work Sans', sans-serif;
+  }
+  
