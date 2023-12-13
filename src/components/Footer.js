@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import '../App.css'
+import facebook from '../images/icons8-facebook-150.png'
+import twitter from '../images/icons8-twitterx-150.png'
+import instagram from '../images/icons8-instagram-150.png'
 
 function Footer() {
   return (
@@ -25,6 +28,7 @@ function Footer() {
               <li><Link class='text-white no-underline' to="/shop">Shop</Link></li>
               <li><Link class='text-white no-underline' to="/contact">Contact Us</Link></li>
             </ul>
+            
           </div>
           <div className="col-md-3">
           <h3  style={{color:'#ffff', fontWeight:'500'}}>GG Abuja</h3>
@@ -51,6 +55,17 @@ function Footer() {
           <p className='text-muted'>Monday to Saturday 10:00 - 19:00 WAT</p>
         </li>
       </ul>
+      <div class="social-icons">
+        <a href="#" class="icon-link">
+          <img src={facebook} alt="Facebook" class="icon cart-icon" />
+        </a>
+        <a href="#" class="icon-link">
+          <img src={twitter} alt="Twitter" class="icon cart-icon" />
+        </a>
+        <a href="#" class="icon-link">
+          <img src={instagram} alt="Instagram" class="icon cart-icon" />
+        </a>
+      </div>
     </div>
           <div class="row mt-5">
     <div class="col-12 text-center text-muted">
