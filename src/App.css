@@ -59,4 +59,7 @@
     background-color: #010c17;
     color: white;
   }
+  .container {
+    max-width: 800px;
+  }
   

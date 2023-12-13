@@ -15,7 +15,7 @@ function Footer() {
       </div>
       <footer class="bg-dark text-white py-5">
   <div class="container">
-    <div class="row">
+    <div class="row ">
     <div className="col-md-3">
           <h3 style={{color:'#ffff', fontWeight:'500'}} class='fs-4'>SITE MAP</h3>
             <ul className="list-unstyled fs-6 ">
@@ -45,6 +45,10 @@ function Footer() {
         <li>
             <span>Phone:</span> <p className='text-muted'>+(234) 000 0000 000</p> 
             <span>E-mail:</span> <p className='text-muted'>glamourgrove@gmail.com</p> 
+        </li>
+        <li className='mb-3'>
+          <span>Opening Hours:</span>
+          <p className='text-muted'>Monday to Saturday 10:00 - 19:00 WAT</p>
         </li>
       </ul>
     </div>
