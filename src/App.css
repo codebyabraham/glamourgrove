@@ -62,4 +62,10 @@
   .container {
     max-width: 800px;
   }
-  
+  #text3{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 4.0em; /* Adjust the font size as needed */
+    font-weight:bolder;
+    color: #b4bec2; /* Set your desired text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+  }

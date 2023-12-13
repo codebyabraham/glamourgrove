@@ -50,9 +50,9 @@ function Navbar() {
         NGN
       </a>
       <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="currencyDropdown">
-        <li><a class="dropdown-item" href="#">USD</a></li>
-        <li><a class="dropdown-item" href="#">EUR</a></li>
-        <li><a class="dropdown-item" href="#">GBP</a></li>
+        <li><a id='text2' class="dropdown-item" href="#">USD</a></li>
+        <li><a id='text2' class="dropdown-item" href="#">EUR</a></li>
+        <li><a id='text2' class="dropdown-item" href="#">GBP</a></li>
       </ul>
     </li>
   </ul>
