@@ -9,7 +9,7 @@ function About() {
     <Navbar/>
     <div class="container mt-5">
     <div class="text-center">
-      <h1 id='text3'>The GlamourGrove Story</h1>
+      <h1 id='text3' class="display-3 font-weight-bold ">The GlamourGrove Story</h1>
       <div id='text2'>
       <p>Welcome to GlamourGrove, where style meets sophistication, and every thread weaves a tale of elegance and confidence. Established with a passion for fashion and a commitment to empowering individuals to express their unique identity, GlamourGrove is more than just a brand—it's a lifestyle.</p>
 
