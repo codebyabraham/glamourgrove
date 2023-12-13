@@ -1,10 +1,12 @@
 import React from 'react'
 import '../App.css'
 import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 
 function About() {
   return (
     <>
+    <Navbar/>
     <div class="container mt-5">
     <div class="text-center">
       <h1 id='text2'>The GlamourGrove Story</h1>

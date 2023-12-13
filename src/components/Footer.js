@@ -19,7 +19,7 @@ function Footer() {
     <div className="col-md-3">
           <h3 style={{color:'#ffff', fontWeight:'500'}} class='fs-4'>SITE MAP</h3>
             <ul className="list-unstyled fs-6 ">
-              <li><Link class='text-white no-underline' to="/homecontent">Home</Link></li>
+              <li><Link class='text-white no-underline' to="/">Home</Link></li>
               <li><Link class='text-white no-underline' to="/about">About Us</Link></li>
               <li><Link class='text-white no-underline' to="/gallery">Gallery</Link></li>
               <li><Link class='text-white no-underline' to="/shop">Shop</Link></li>
