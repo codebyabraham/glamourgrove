@@ -5,6 +5,12 @@ import { Link } from "react-router-dom";
 import one from '../images/1.jpeg';
 import two from '../images/2.jpeg';
 import three from '../images/3.jpeg';
+import four from '../images/4.jpeg';
+import five from '../images/5.jpeg';
+import six from '../images/6.jpeg';
+import seven from '../images/7.jpeg';
+import eight from '../images/8.jpeg';
+
 
 
 function HomeContent() {
@@ -40,6 +46,31 @@ function HomeContent() {
     <div class="col-md-3">
       <a data-toggle="modal" data-target="#exampleModal" href="#">
         <img src={three} class="img-thumbnail" alt="..." style={{ maxWidth: '100%', height: 'auto' }} />
+      </a>
+    </div>
+    <div class="col-md-3">
+      <a data-toggle="modal" data-target="#exampleModal" href="#">
+        <img src={four} class="img-thumbnail" alt="..." style={{ maxWidth: '100%', height: 'auto' }} />
+      </a>
+    </div>
+    <div class="col-md-3">
+      <a data-toggle="modal" data-target="#exampleModal" href="#">
+        <img src={five} class="img-thumbnail" alt="..." style={{ maxWidth: '100%', height: 'auto' }} />
+      </a>
+    </div>
+    <div class="col-md-3">
+      <a data-toggle="modal" data-target="#exampleModal" href="#">
+        <img src={six} class="img-thumbnail" alt="..." style={{ maxWidth: '100%', height: 'auto' }} />
+      </a>
+    </div>
+    <div class="col-md-3">
+      <a data-toggle="modal" data-target="#exampleModal" href="#">
+        <img src={seven} class="img-thumbnail" alt="..." style={{ maxWidth: '100%', height: 'auto' }} />
+      </a>
+    </div>
+    <div class="col-md-3">
+      <a data-toggle="modal" data-target="#exampleModal" href="#">
+        <img src={eight} class="img-thumbnail" alt="..." style={{ maxWidth: '100%', height: 'auto' }} />
       </a>
     </div>
   </div>

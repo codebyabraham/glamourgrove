@@ -65,7 +65,7 @@
   #text3{
     font-family: 'Work Sans', sans-serif;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    color: rgb(151, 154, 154);
+    color: rgb(126, 131, 131);
   }
   .social-icons {
     display: flex;
@@ -88,6 +88,8 @@
     transform: translateY(-5px);
   }
   .main{
-    background-color: rgb(245, 249, 249);
+    background-color: rgb(255, 255, 255);
   }
-  
+  #text4{
+    font-family: 'Work Sans', sans-serif;
+  }
