@@ -4,10 +4,18 @@ import '../App.css'
 import { Link } from "react-router-dom";
 import one from '../images/1.jpeg';
 import two from '../images/2.jpeg';
-// import three from '../images/3.jpeg';
+import three from '../images/3.jpeg';
 
 
 function HomeContent() {
+  /* global $ */
+
+  $(document).ready(function () {
+    $('.img-thumbnail').click(function () {
+      const imgSrc = $(this).attr('src');
+      $('#modalImage').attr('src', imgSrc);
+    });
+  });
   return (
     <>
     <div class='col-12 text-center'>
@@ -19,11 +27,30 @@ function HomeContent() {
     </div>
     <div class="container">
   <div class="row">
-    <div class="col-md-6">
-      <img src={one} class="img-thumbnail" alt="..." style={{ maxWidth: '100%', height: 'auto' }} />
+    <div class="col-md-3">
+      <a data-toggle="modal" data-target="#exampleModal" href="#">
+        <img src={one} class="img-thumbnail" alt="..." style={{ maxWidth: '100%', height: 'auto' }} />
+      </a>
     </div>
-    <div class="col-md-6">
-      <img src={two} class="img-thumbnail" alt="..." style={{ maxWidth: '100%', height: 'auto' }} />
+    <div class="col-md-3">
+      <a data-toggle="modal" data-target="#exampleModal" href="#">
+        <img src={two} class="img-thumbnail" alt="..." style={{ maxWidth: '100%', height: 'auto' }} />
+      </a>
+    </div>
+    <div class="col-md-3">
+      <a data-toggle="modal" data-target="#exampleModal" href="#">
+        <img src={three} class="img-thumbnail" alt="..." style={{ maxWidth: '100%', height: 'auto' }} />
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="" id="modalImage" class="img-fluid" alt="Large Image" />
+      </div>
     </div>
   </div>
 </div>
