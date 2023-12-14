@@ -6,9 +6,11 @@ function Contact() {
   return (
     <>
     <Navbar/>
+    
     <div class="container">
   <div class="row justify-content-end">
     <div id='text4' class="col-md-6"> 
+    <h3>Get in touch</h3>
       <div class="mb-3">
         <label for="name" class="form-label"></label>
         <input type="text" class="form-control" id="name" placeholder="Your Name"/>
@@ -19,9 +21,18 @@ function Contact() {
         <input type="email" class="form-control" id="email" placeholder="Your Email Address"/>
       </div>
 
-      <div class="mb-3">
+      {/* <div class="mb-3">
         <label for="subject" class="form-label"></label>
         <input type="text" class="form-control" id="subject" placeholder="Subject"/>
+      </div> */}
+      <div>
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Subject</option>
+        <option value="1">Delivery</option>
+        <option value="2">Support</option>
+        <option value="3">Order</option>
+        <option value="4">Payment</option>
+      </select>
       </div>
 
       <div class="mb-3">
