@@ -13,21 +13,30 @@ function Navbar() {
 </div>
 <div id="menu-container">
   <ul class="nav justify-content-center">
-    <li class="nav-item">
-      <Link class="nav-link text-dark" to="/" href="#">HOME</Link>
-    </li>
-    <li class="nav-item">
-      <Link class="nav-link text-dark" to="/about" href="#">ABOUT US</Link>
-    </li>
-    <li class="nav-item">
-      <Link class="nav-link text-dark" to="/gallery" href="#">GALLERY</Link>
-    </li>
-    <li class="nav-item">
-      <Link class="nav-link text-dark" to="/shop" href="#">SHOP</Link>
-    </li>
-    <li class="nav-item">
-      <Link class="nav-link text-dark" to="/contact" href="#">CONTACT US</Link>
-    </li>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="/">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="/about">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="/gallery">GALLERY</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="/shop">SHOP</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="/contact">CONTACT US</a>
+      </li>
+    </ul>
+  </div>
+</nav>
     <li class="nav-item">
       <Link class="nav-link" href="#">
         <img src={cart} alt="Cart" class="cart-icon" />
