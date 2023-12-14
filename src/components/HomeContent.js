@@ -2,8 +2,8 @@ import React from 'react'
 import { Carousel } from "react-bootstrap";
 import '../App.css'
 import { Link } from "react-router-dom";
-// import one from '../images/1.jpeg';
-// import two from '../images/2.jpeg';
+import one from '../images/1.jpeg';
+import two from '../images/2.jpeg';
 // import three from '../images/3.jpeg';
 
 
@@ -16,8 +16,19 @@ function HomeContent() {
         <Link class="nav-link text-dark" to="/about" href="#" >
           <span>READ THE</span> <br /> GLAMOURGROVE STORY
         </Link>
-
     </div>
+    <div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <img src={one} class="img-thumbnail" alt="..." style={{ maxWidth: '100%', height: 'auto' }} />
+    </div>
+    <div class="col-md-6">
+      <img src={two} class="img-thumbnail" alt="..." style={{ maxWidth: '100%', height: 'auto' }} />
+    </div>
+  </div>
+</div>
+
+    
     {/* <Carousel className="custom-carousel w-50 " >
         <Carousel.Item>
         <div id="text-content" class="carousel-caption align-items-center text-start d-md-block">
