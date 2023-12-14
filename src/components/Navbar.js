@@ -2,27 +2,15 @@ import React from 'react'
 import '../App.css'
 import { Link } from "react-router-dom";
 import cart from '../images/cart.png'
+import GG from '../images/G.png'
 
 function Navbar() {
   
   return (
     <>
-    <div class="d-flex justify-content-between ">
-  <div>
-    <h5 class=' p-3'>Subscribe to our Newsletter</h5>
-  </div>
-  <div class="">
-    <img src="https://example.com/logo.png" alt="Logo" class="img-fluid"/>
-  </div>
-  <div class="col-6 text-right">
-    <p>For inquiries call <br/> (234) 809 8888 633</p>
-  </div>
+  <div className="text-center">
+    <img src={GG} alt="Logo" className="img-fluid" style={{ maxWidth: '150px', height: 'auto' }}/>
 </div>
-
-
-
-
-
 <div id="menu-container">
   <ul class="nav justify-content-center">
     <li class="nav-item">

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
 #menu-container {
     border-bottom: 2px solid #ccc; /* Add a border at the bottom */
-    margin-bottom: 20px; /* Add some margin for spacing */
+    margin-bottom: 40px; /* Add some margin for spacing */
     border-top:2px solid #ccc ;
 }
 .nav-link {
@@ -33,7 +33,7 @@
     margin: auto;
     text-align: center;
     padding: 20px;
-    margin-top: 50px;
+    
   }
 
   .subscribe-container input[type="text"] {
@@ -87,3 +87,7 @@
   .icon:hover {
     transform: translateY(-5px);
   }
+  .main{
+    background-color: rgb(245, 249, 249);
+  }
+  

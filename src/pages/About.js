@@ -7,7 +7,8 @@ function About() {
   return (
     <>
     <Navbar/>
-    <div class="container mt-5">
+    <div class='main'>
+    <div class="container ">
     <div class="text-center">
       <h1 id='text3' class="display-3 font-weight-bold ">The GlamourGrove Story</h1>
       <div id='text2'>
@@ -26,6 +27,7 @@ function About() {
       <p>Thank you for choosing GlamourGrove—a brand that transcends trends and embraces the enduring allure of timeless fashion.</p>
       </div>
     </div>
+  </div>
   </div>
   <Footer/>
     </>
