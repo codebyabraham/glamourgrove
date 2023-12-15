@@ -39,7 +39,7 @@ function Navbar() {
 </nav>
     <li class="nav-item">
       <Link class="nav-link" href="#">
-        <img src={cart} alt="Cart" class="cart-icon" />
+        <img src={cart} alt="Cart" class="cart-icon" href="/cart" />
       </Link>
     </li>
     <li class="nav-item dropdown">
