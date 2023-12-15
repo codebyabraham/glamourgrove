@@ -12,6 +12,16 @@
   .nav-link:hover {
     color: #007bff; /* Change the color on hover (you can customize this color) */
   }
+  .navbar-toggler {
+    border: none;
+    background-color: transparent;
+  }
+  
+  .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+ 
 
   .cart-icon {
     width: 30px; /* Set the width of the cart icon */
@@ -93,5 +103,4 @@
   #text4{
     font-family: 'Work Sans', sans-serif;
   }
-
-
+ 
