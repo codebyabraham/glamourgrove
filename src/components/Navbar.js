@@ -19,20 +19,20 @@ function Navbar() {
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link text-dark" href="/">HOME</a>
+      <li class="nav-item ">
+        <a class="nav-link text-dark mr-4 text-muted" href="/">HOME</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-dark" href="/about">ABOUT US</a>
+        <a class="nav-link text-dark mr-4 text-muted" href="/about">ABOUT US</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-dark" href="/gallery">GALLERY</a>
+        <a class="nav-link text-dark mr-4 text-muted" href="/gallery">GALLERY</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-dark" href="/shop">SHOP</a>
+        <a class="nav-link text-dark mr-4 text-muted" href="/shop">SHOP</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-dark" href="/contact">CONTACT US</a>
+        <a class="nav-link text-dark mr-4 text-muted" href="/contact">CONTACT US</a>
       </li>
     </ul>
   </div>
