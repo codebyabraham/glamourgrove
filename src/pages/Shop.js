@@ -25,20 +25,32 @@ function Shop() {
     };
 
     return (
-      <div className="d-flex align-items-center mb-3">
-        <span className="h6 text-muted me-2">Filter by price:</span>
-        <div className="form-range w-50">
-          <input
-            type="range"
-            min="2000"
-            max="50000"
-            value={price}
-            className="form-control-range"
-            onChange={updatePrice}
-            style={{ backgroundSize: calculateBackgroundSize() }}
-          />
-          <span className="visually-hidden">Min to Max</span>
-          <p className="range-value ms-2">{calculateDisplayPrice()}</p>
+      <div className="container mt-3">
+        <div className="d-flex align-items-center mb-3">
+          <span className="h6 text-muted me-2">Filter by price:</span>
+          <div className="form-range w-50">
+            <input
+              type="range"
+              min="2000"
+              max="50000"
+              value={price}
+              className="form-control-range"
+              onChange={updatePrice}
+              style={{ backgroundSize: calculateBackgroundSize() }}
+            />
+            <span className="visually-hidden">Min to Max</span>
+            <p className="range-value ms-2">{calculateDisplayPrice()}</p>
+          </div>
+          
+          {/* Place the select element here */}
+          <div className="mb-3 ml-5">
+            <select className="form-select" aria-label="Default select example">
+              <option selected>Sort By Latest</option>
+              <option value="1">Sort By Popularity</option>
+              <option value="2">Sort By Price: Low To High</option>
+              <option value="3">Sort By Price: High To Low</option>
+            </select>
+          </div>
         </div>
       </div>
     );
@@ -47,13 +59,9 @@ function Shop() {
   return (
     <>
       <Navbar />
-      <div className="container mt-3">
-        {/* Include the PriceFilter component here */}
-        <PriceFilter />
-      </div>
+      <PriceFilter />
       <Footer />
     </>
   );
 }
-
 export default Shop;
